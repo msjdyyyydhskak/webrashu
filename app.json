@@ -1,0 +1,17 @@
+{
+    "name": "rashu Session Generator",
+    "description": "Web Session Generator",
+    "logo": "https://files.catbox.moe/cpu3eu.jpg",
+    "repository": "https://github.com/msjdyyyydhskak/webrashu",
+    "keywords": ["Rashu","mini"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      }
+    }   
+
+}
